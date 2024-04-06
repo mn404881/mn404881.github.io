@@ -1,0 +1,935 @@
+
+* body{
+    width: 100%;
+    background-color: rgb(245, 238, 225);
+}
+::selection{
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+    
+}
+* a:hover{
+    color: #154e60 ;
+    font-size: 15px;
+    text-decoration: underline;
+    background-color: rgb(215, 206, 190);
+    color: black;
+
+}
+.main-feature ~ .indexpictures1 {
+    padding: 5px;
+    margin: 30px;
+    font-size: 2px;
+}
+
+
+* p {
+    text-align: center;
+    justify-content: center;
+    color: #154e60 ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+   
+}
+
+.top{
+ text-align: center;
+ padding-top: 10px;
+}
+.top button {
+  background-color: #524a30; 
+  color: white; 
+  padding: 15px 32px; 
+  text-align: center; 
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.main-container{
+   background-color: rgb(235, 220, 190);
+}
+
+section > h2 {
+    text-align: center;
+    color: #154e60 ;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+.main-feature{
+    text-align: center;
+    background-color: rgb(243, 231, 208);
+    color:#204653;
+    padding: 20px; 
+    position: sticky;  
+    top: 20px; 
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    color:#204653;
+    list-style-type: none;
+
+}
+
+.navlinks a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    color:#204653;
+}
+
+.indexpictures1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.indexpictures {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indexpictures #himg{
+    border: 2px solid black;
+}
+
+.navlinks + .indexpictures1 {
+    border: 2px solid pink;
+}
+
+#footer{
+    background-color: rgb(243, 231, 208);
+    padding: 5px;
+    font-size: 1em;
+}
+
+.footer > #CustomerCare{
+    text-align: center;
+}
+
+.footer:hover{
+    background-color: rgb(244, 237, 237);
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul > #email1, #email2, #phone1{
+    color: #154e60;
+    font-family: cursive;
+    list-style: none;
+    text-align: center;
+}
+
+#email, #phone{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*-----Accessories--------*/
+
+.AccessoriesDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15%;
+  
+}
+
+#AccessMain{
+   font-weight: bold;
+   font-size: 40px;
+   text-decoration: wavy;
+   top: 20%;
+   color: #204653;
+ 
+  
+}
+
+
+#AccessMain:hover{
+    color: #204653;
+    font-size: 50px;
+}
+
+.AccessMainTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: right;
+    list-style-type: none;
+    padding-right: 330px;
+}
+ 
+tr a{
+    color: #164456;
+    padding: 15px;
+    font-size:30px;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-top: 40px;
+    font-weight: bold;
+  
+}
+.AccessMain2{
+    gap: 10px;
+}
+
+h2 > p {
+   padding-left: 150px;
+}
+
+.imageSection{
+    display: flex;
+}
+
+.AccessMain2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imagesSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#AccessImgs1, #AccessImgs2, #AccessImgs4 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 2px;
+    gap: 20px; 
+}
+
+#AccessImgs1 > img  {
+    padding: 2px;
+    border: 5px solid black;
+    margin: 3px;
+    justify-content: space-evenly; 
+}
+
+#AccessImg1 > img:hover {
+    height: 100px;
+}
+#AccessImgs2 > img  {
+    padding: 52px;
+    border: 5px solid black;
+    margin: 3px;
+    justify-content: space-evenly;  
+}
+#AccessImgs3 > img  {
+    padding: 2px;
+    margin: 3px;
+    border: 5px solid black;
+    justify-content: space-evenly;  
+}
+
+.AccessFooter {
+    background-color: rgb(243, 231, 208);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AccessContact {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-around; 
+    width: 80%;
+}
+
+.AccessContact li {
+    margin-bottom: 10px;
+}
+img[src="Womenwear2.webp"]{
+    height: auto;
+}
+
+img[src="Womenwear4.webp"]{
+    width: 600px;
+    padding: 20px;
+}
+img[src="Wedding2.webp"]{
+    height: 650px;
+}
+img[src="Wedding1.webp"]{
+    width: 650px;
+}
+
+/*---Womenswear-----*/
+
+
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "Heading links";
+    justify-content: space-around;
+    background-color: rgb(249, 234, 206);
+    padding: 40px;
+
+}
+
+.mainContainer{
+    grid-area: Heading;
+    color: #164456;
+}
+
+#scroll-to-top{
+  justify-content: center;
+}
+.center > ul{
+    grid-area: links;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 450px;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.WomenLinks  a {
+    font-weight: 50px;
+    text-decoration: underline;
+    list-style-type: none;
+    color: #164456;
+    font-size: 25px;
+}
+.WomenLinks a:hover{
+    font-size: 30px;
+}
+
+#womenPara {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: #164456;
+}
+
+
+.WomenImg  img{
+    border: 2px solid black;
+    padding: 20px;
+    justify-content: center;
+}
+
+.WomenImg1 img{
+    border: 2px solid black;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+
+#secondHeading{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: #164456;
+}
+
+.Western  img{
+    border: 2px solid black;
+    padding-right: 20px;  
+}
+
+
+/*-----Form------*/
+
+.form-container{
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border: 5px solid rgb(208, 189, 174);
+    border-radius: 10px;
+    background-color: rgb(229, 221, 203);
+}
+
+.form-group {
+    margin: 20px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(223, 211, 201);
+    box-sizing:  border-box;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.form-container #credit-card{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(223, 211, 201);
+    box-sizing:  border-box;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#submit{
+    background-color: rgb(126, 120, 116);
+    color: black;
+    font-family: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(77, 76, 76);
+    color: white;
+    font-size: 20px;
+}
+
+.error {
+    color: rgb(251, 96, 96);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  #checkout{
+    padding-left: 45%;
+  }
+
+  #required{
+    padding-top: 30px;
+    color:purple;
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+
+  /**---------------------------------------Mobile Width------------------------------------------------*/
+
+  @media only screen and (max-width: 500px) {
+
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .indexH{
+        margin-bottom: 40px;
+        padding: 10px;
+    }
+    .nav-bar {
+        flex-direction: column;
+        align-items: center; 
+      }
+    
+      .navlinks {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+
+      .navlinks li {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+    .indexpictures,
+    .indexpictures1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border:  2px solid black;
+    }
+  
+    #button {
+      text-align: center;
+    }
+  
+    footer {
+      text-align: center;
+    }
+
+    .indexpictures1 img{
+        width: 100%;
+        height: auto;
+      }
+
+      .indexpictures img {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 20px;
+      }
+
+      .mainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+        padding-left: 0px;
+      }
+      
+      img{
+        width: 50vw;
+      }
+
+
+      .WomenLinks {
+        display: flex;
+        flex-direction: column;     
+      }
+      
+
+      .center ul {
+        display: block;
+        padding-left: 50px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column; 
+      }
+
+      nav li {
+        list-style-type: none;
+        padding-bottom: 10px;
+        
+      }
+      
+      .AccessoriesDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: centers;
+      }
+
+      #AccessMain{
+        padding: 40px;
+        width: 400px;
+      }
+
+      #AccessMain:hover{
+       background-color: none;
+      }
+      .jeww td{
+        padding-left:20px;
+        justify-content: center;
+        width: 50vw;
+        text-decoration: none;
+        
+
+      }
+
+      .WomenImg,
+      .WomenImg1,
+      .Western {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 50px;
+      }
+      
+      .AccessMainTable{
+        text-decoration: none;
+        width: 450px;
+      }
+     
+      .WomenImg img,
+      .WomenImg1 img,
+      .Western img {
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 20px; 
+      }
+      
+      
+      #WomenH1 {
+        margin-bottom: 20px;
+        text-align: 100%;
+      }
+
+      .form-container {
+        width: 400px;
+        padding: 0 20px;
+        font-family: cursive;
+    }
+
+    .form-container{
+        margin: 50px;
+        padding-left: 2px;
+        padding: 2px;
+        border: 1px solid rgb(33, 29, 26);
+        border-radius: 10px;
+        border-width: 2px;
+        font-family: cursive;
+    }
+
+    #AccessP{
+        padding-left: 0.1px;
+    }
+    #AccessMain{
+        padding-left: 30px;
+    }
+
+    .AccessMainTable td {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        text-decoration-line: none;
+    }
+    
+    .AccessMainTable a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+   
+    .imagesSection {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #AccessImgs1,
+    #AccessImgs2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #AccessImgs1 img,
+    #AccessImgs2 img {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*----------------------------------------------------Tablet Screen Size-----------------------------------------*/
+@media only screen and (max-width : 1024px) and (min-width: 501px){
+
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .indexH{
+        margin-bottom: 40px;
+        padding: 10px;
+       
+    }
+    .nav-bar {
+        flex-direction: column;
+        align-items: center; 
+      }
+    
+      .navlinks {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+
+      .navlinks li {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+    .indexpictures,
+    .indexpictures1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border:  2px solid black;
+    }
+ 
+    #button {
+      text-align: center;
+    }
+  
+    footer {
+      text-align: center;
+    }
+
+    .indexpictures1 img{
+        width: 100%;
+        height: auto;
+      }
+
+      .indexpictures img {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 20px;
+      }
+
+      .mainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+        padding-left: 0px;
+      }
+      
+    
+      .WomenLinks {
+        display: flex;
+        flex-direction: column;     
+      }
+      
+
+      .center ul {
+        display: block;
+        padding-left: 50px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column; 
+      }
+
+      nav li {
+        list-style-type: none;
+        padding-bottom: 10px;
+        
+      }
+      
+      .AccessoriesDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: centers;
+      }
+
+      #AccessMain{
+        padding-left: 50px;
+        width: 400px;
+        text-align: center;
+      }
+
+      #AccessMain:hover{
+       background-color: none;
+      }
+
+      .jeww td{
+        padding-left:20px;
+        justify-content: center;
+        width: 50vw;
+        text-decoration: none;
+        
+
+      }
+
+      .WomenImg,
+      .WomenImg1,
+      .Western {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 50px;
+        
+      }
+      
+      .AccessMainTable{
+       text-align: center;
+        text-decoration: none;
+        width: 450px;
+      }
+     
+      .WomenImg img,
+      .WomenImg1 img,
+      .Western img {
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 20px; 
+        border: 50px;
+      }
+      
+      
+      #WomenH1 {
+        margin-bottom: 20px;
+        text-align: 100%;
+        border: 50px;
+      }
+
+      .form-container {
+        width: 700px;
+        padding: 0 20px;
+        margin: 50px auto;
+       border: 1px solid rgb(33, 29, 26);
+        border-radius: 10px;
+        border: 5px solid rgb(154, 123, 83);
+    }
+
+    .form-container{
+      .form-container {
+        width: 100%; 
+        max-width: 500px; 
+        padding: 0 10px;
+        
+    }
+    }
+
+    #AccessP{
+        padding-left: 0.1px;
+    }
+    #AccessMain{
+        padding-left: 30px;
+    }
+
+    .AccessMainTable td {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        text-decoration-line: none;
+    }
+    
+    .AccessMainTable a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+   
+    .imagesSection {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #AccessImgs1,
+    #AccessImgs2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #AccessImgs1 img,
+    #AccessImgs2 img {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*-----------------2 Button when click changed the theme to dark or light depends on which button is clicked----------------*/
+#light-theme-toggle,
+#dark-theme-toggle {
+  position: fixed;
+  top: 20px;
+  z-index: 9999; 
+  padding: 5px ;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#light-theme-toggle {
+  right: 120px; 
+  background-color: rgb(255, 254, 249);
+}
+
+#dark-theme-toggle {
+  right: 20px; 
+  background-color: rgb(255, 254, 249);
+}
+
+#light-theme-toggle:hover,
+#dark-theme-toggle:hover {
+  background-color: #f6e7af;
+}
+
+.dark-theme {
+  background-color: #bb9f7f;
+}
+
+.dark-theme .main-container {
+  background-color: #ae8e6c;
+}
+
+.dark-theme .main-feature {
+  background-color: #bb9f7f;
+  color: black;
+}
+.dark-theme .mainp{
+  color: black;
+}
+
+.dark-theme .navlinks a {
+  color: black;
+}
+
+.dark-theme #theme-toggle{
+  background-color: #e9e1d9;
+}
+
+.dark-theme #footer{
+  background-color:  #c2a68b;
+  color: black;
+}
+
+.light-theme {
+  background-color:white;
+}
+
+.light-theme .main-container {
+  background-color:  rgb(253, 248, 234);
+}
+
+.light-theme .main-feature {
+  background-color:   rgb(251, 242, 219);
+  color: black;
+}
+
+.light-theme .mainp{
+  color: black;
+}
+
+.light-theme .navlinks a {
+  color: black;
+}
+
+.light-theme #theme-toggle{
+  background-color: white;
+}
+
+.light-theme #footer{
+  background-color: rgb(253, 248, 234);
+  color: black;
+}
